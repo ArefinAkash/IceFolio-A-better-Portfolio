@@ -46,7 +46,7 @@ section{
     padding-bottom: 80px;
 }
 .top-banner{
-    background-image: url("top-banner.png");
+    background-image: url("resources/top-banner.png");
     height: 540px;
     background-repeat: no-repeat;
 }
