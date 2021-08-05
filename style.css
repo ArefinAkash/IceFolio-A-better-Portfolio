@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.main{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    user-select: none;
+    }
+    .main img{
+        width: 100%;
+       -webkit-user-drag: none;
+    }
+    .main p{
+        font-family: cursive;
+        font-size: 20px;
+        user-select: text;
+    }
+    .main p:hover{
+    
+    }
+.n1{
+    background-color: lightblue;
+    border: 7px solid lightblue;
+    border-radius: 10px;
+    font-size: 60px;
+    color: white;
+    user-select: text;
+}
+.n2{
+    font-size: 60px;
+    color: rgb(150, 150, 241);
+    user-select: none;
+
+}
+#subheader{
+    border-bottom: 5px solid burlywood;
+    font-family: 'Teko', sans-serif;
+    width: fit-content;
+}
+section{
+    padding-bottom: 80px;
+}
+.top-banner{
+    background-image: url("top-banner.png");
+    height: 540px;
+    background-repeat: no-repeat;
+}
+.hireme{
+    text-decoration: none;
+    background-image: linear-gradient(60deg,rgb(188, 174, 250),rgb(103, 131, 224));
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+}
