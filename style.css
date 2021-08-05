@@ -98,7 +98,7 @@ p::selection{
     color: rgb(160, 166, 248);
 }
 .side-banner{
-    background-image: url(dream-bg.png);
+    background-image: url(resources/dream-bg.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: 100px;
@@ -153,4 +153,52 @@ p::selection{
 }
 #baby-web{
     border: 7px solid lightseagreen;
+}
+
+
+
+
+
+
+.hobby-area {
+
+}
+.hobby{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    user-select: text;
+}
+
+.hobby-heading{
+    margin-top: 500px;
+    user-select: none;
+    position: relative;
+    left: 500px;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+.hobby h2{
+    font-size: 40px;
+    font-family: monospace;
+    border-left: 5px solid rgb(0, 255, 106);
+    padding-left: 10px;
+}
+.hobby p{
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ font-size: 30px;
+}
+.hobby h2::selection{
+    color: lime;
+}
+.hobby p::selection{
+    color: mediumseagreen;
+}
+.projects-heading{
+    font-size: 36px;
+    margin-top: 400px;
+    font-family: fantasy;
+    background-color: bisque;
+    text-align: center;
 }
