@@ -1,8 +1,10 @@
+/*Do Not Change any code if you are beginner at CSS Otherwise Your Website can be broken*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
 body{
     margin: 0;
-    overflow-x: hidden;
 }
 .main{
     width:40%;
@@ -170,7 +172,6 @@ p::selection{
     padding-left: 2%;
     user-select: text;
 }
-
 .hobby-heading{
     margin-top: 500px;
     user-select: none;
@@ -195,10 +196,27 @@ p::selection{
 .hobby p::selection{
     color: mediumseagreen;
 }
+
+
+/*New Project area---Do not touch
 .projects-heading{
     font-size: 36px;
     margin-top: 400px;
     font-family: fantasy;
     background-color: bisque;
     text-align: center;
+}
+*/
+
+@media only screen and (max-width: 650px) {
+    .exp{
+        width: 50%;
+
+    user-select: text;
+    }
+    .exp-area div{
+        max-height: fit-content;
+        width: 83.5%;
+        margin-bottom: 20%;
+    }
 }
